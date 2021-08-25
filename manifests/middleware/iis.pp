@@ -1,5 +1,5 @@
 # @summary This profile installs IIS
-class appteam_webserver::iis (
+class appteam_webserver::middleware::iis (
   Boolean $default_website = true,
 ){
 

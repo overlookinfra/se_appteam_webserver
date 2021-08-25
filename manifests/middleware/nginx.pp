@@ -1,5 +1,5 @@
 # @summary This profile installs NGINX
-class appteam_webserver::nginx (
+class appteam_webserver::middleware::nginx (
   Boolean $php = false,
 ){
 

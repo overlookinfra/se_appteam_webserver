@@ -1,5 +1,5 @@
 # @summary This profile installs Apache
-class appteam_webserver::apache (
+class appteam_webserver::middleware::apache (
   $default_vhost = true,
 ){
 
